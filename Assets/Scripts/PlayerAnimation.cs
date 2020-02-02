@@ -41,8 +41,15 @@ public class PlayerAnimation : MonoBehaviour
         }
         else
         {
-            var swimmingAgainstVelocity = (inputDir == InputDir.Right) != (rb2d.velocity.x > 0);
-            shouldPlay = swimmingAgainstVelocity ? PlayerAnimState.Swim_Fast : PlayerAnimState.Swim;
+            if (player.IsTouchingBottom)
+            {
+                shouldPlay = PlayerAnimState.Walk;
+            }
+            else
+            {
+                var swimmingAgainstVelocity = (inputDir == InputDir.Right) != (rb2d.velocity.x > 0);
+                shouldPlay = swimmingAgainstVelocity ? PlayerAnimState.Swim_Fast : PlayerAnimState.Swim;
+            }
         }
 
         if (shouldPlay != playedState)
@@ -104,6 +111,9 @@ public class PlayerAnimation : MonoBehaviour
             case PlayerAnimState.Swim_Up:
                 animator.Play("Fox Swim Up");
                 break;
+            case PlayerAnimState.Walk:
+                animator.Play("Fox Walk");
+                break;
             default:
                 throw new ArgumentOutOfRangeException(nameof(state), state, null);
         }
@@ -122,6 +132,7 @@ public enum PlayerAnimState
 {
     Idle_Float,
     Idle_Ground,
+    Walk,
     Swim,
     Swim_Fast,
     Hurt,

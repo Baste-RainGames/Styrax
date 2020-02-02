@@ -10,8 +10,10 @@ public class InGameUI : MonoBehaviour
     private static bool gameOver;
 
     public GameObject menu;
-    public TextMeshProUGUI header;
+    public Image header;
     public Button resume;
+
+    public Sprite pauseSprite, gameOverSprite;
 
     void Awake()
     {
@@ -56,7 +58,7 @@ public class InGameUI : MonoBehaviour
 
 
         instance.menu.SetActive(true);
-        instance.header.text = "Game Over!";
+        instance.header.sprite = instance.gameOverSprite;
         instance.resume.interactable = false;
 
         gameOver = true;
@@ -88,6 +90,9 @@ public class InGameUI : MonoBehaviour
     {
         Resume();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadSceneAsync("Caves", LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("OlaCaves", LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("OleCaves", LoadSceneMode.Additive);
     }
 
     public void ShowPauseScreen()
@@ -100,7 +105,7 @@ public class InGameUI : MonoBehaviour
         AudioManager.Play("Pause");
 
         menu.SetActive(true);
-        header.text = "Pause";
+        header.sprite = pauseSprite;
         resume.interactable = true;
     }
 

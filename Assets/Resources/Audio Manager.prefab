@@ -142,3 +142,10 @@ MonoBehaviour:
     randomPitch: 0
     greaterRandomPitch: 0
     source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: f9e800fad8a5cac4a8165d1e94bb4311, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    greaterRandomPitch: 0
+    source: {fileID: 0}

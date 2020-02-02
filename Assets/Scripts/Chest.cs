@@ -27,4 +27,6 @@ public class Chest : MonoBehaviour, IInteractable
         }
         Destroy(this);
     }
+
+    public bool CanInteract => true;
 }

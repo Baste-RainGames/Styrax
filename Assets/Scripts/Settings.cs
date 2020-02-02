@@ -39,11 +39,15 @@ public class Settings : ScriptableObject
     public static float DamageKnockbackForce => instance.damageKnockbackForce;
     public int maxAirTankHoles = 5;
     public static int MaxAirTankHoles => instance.maxAirTankHoles;
+    public float invincibleForSeconds = .5f;
+    public static float InvincibleForSeconds => instance.invincibleForSeconds;
 
     [Header("Other")]
     public float parallax = .5f;
     public static float Parallax => instance.parallax;
 
+    public float crabAttackPlayerDistance = 5f;
+    public static float CrabAttackPlayerDistance => instance.crabAttackPlayerDistance;
 
     void OnEnable()
     {

@@ -1,9 +1,12 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class AirTank : MonoBehaviour
 {
+    public float overWaterThreshold;
+
     private float _air;
     private float Air
     {
@@ -12,7 +15,6 @@ public class AirTank : MonoBehaviour
         {
             _air = Mathf.Clamp(value, 0f, Settings.AirTankMaxFill);
             _ui.SetAir(_air);
-            rb2d.gravityScale = Mathf.Lerp(Settings.PlayerGravityNoAir, Settings.PlayerGravityMaxAir, Mathf.InverseLerp(0f, Settings.AirTankMaxFill, _air));
         }
     }
 
@@ -42,6 +44,7 @@ public class AirTank : MonoBehaviour
     private bool venting;
 
     private List<AirFillArea> insideAirFills = new List<AirFillArea>();
+    private bool invincible;
 
     private void Start()
     {
@@ -81,6 +84,11 @@ public class AirTank : MonoBehaviour
         {
             InGameUI.ShowGameOverScreen();
         }
+
+        if (transform.position.y > overWaterThreshold)
+            rb2d.gravityScale = 2;
+        else
+            rb2d.gravityScale = Mathf.Lerp(Settings.PlayerGravityNoAir, Settings.PlayerGravityMaxAir, Mathf.InverseLerp(0f, Settings.AirTankMaxFill, _air));
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -90,11 +98,12 @@ public class AirTank : MonoBehaviour
             insideAirFills.Add(airFill);
         }
 
-        if (other.gameObject.TryGetComponent<DamageObject>(out var damage))
+        if (other.gameObject.TryGetComponent<DamageObject>(out var damage) && !invincible)
         {
             Damaged();
             player.Knockback(damage.transform);
             player.anim.PlayHurt();
+            StartCoroutine(WeHaveIFramesLikeABoss());
         }
 
         if (other.gameObject.TryGetComponent<RepairPickup>(out var repairPickup))
@@ -105,6 +114,13 @@ public class AirTank : MonoBehaviour
             Destroy(repairPickup.gameObject);
             Holes--;
         }
+    }
+
+    private IEnumerator WeHaveIFramesLikeABoss()
+    {
+        invincible = true;
+        yield return new WaitForSeconds(Settings.InvincibleForSeconds);
+        invincible = false;
     }
 
     private void OnTriggerExit2D(Collider2D other)

@@ -9,10 +9,10 @@
   + becomes bigger when player in range
     + step 2: becomes bigger only when player in front
 
-- Submarine:
-  - Pickups; you swim over them and add them to inventory	
-  - When you have a pickup and swim by the submarine, you drop the pickup
-  - Keep count of number of pickups?
++ Submarine:
+  + Pickups; you swim over them and add them to inventory	
+  + When you have a pickup and swim by the submarine, you drop the pickup
+  + Keep count of number of pickups?
 
   (Probably three scripts, some might just be tags idk; PlayerInventory, Pickup, Submarine)
   (Probably solve this with OnTriggerEnter2D, colliders)
@@ -27,4 +27,4 @@ In-game menu:
 
 Bugs
 	- Reset button not working
-	- All key pickups occupy the same inventory slot
+	+ All key pickups occupy the same inventory slot

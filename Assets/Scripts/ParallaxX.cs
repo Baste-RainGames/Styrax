@@ -12,9 +12,9 @@ public class ParallaxX : MonoBehaviour
 
     private void Start()
     {
-        parallaxWidth = background.sprite.texture.width / background.sprite.pixelsPerUnit;
+        parallaxWidth = (background.sprite.texture.width * background.transform.localScale.x) / background.sprite.pixelsPerUnit;
         parallaxMain = background.transform;
-        parallaxHelperX = Instantiate(parallaxMain);
+        parallaxHelperX = Instantiate(parallaxMain, transform, true);
         Destroy(parallaxHelperX.GetComponent<ParallaxX>());
     }
 

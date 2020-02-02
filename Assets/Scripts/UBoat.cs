@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEngine;
 
 public class UBoat : MonoBehaviour, IInteractable
 {
@@ -49,5 +50,16 @@ public class UBoat : MonoBehaviour, IInteractable
         }
 
         usedUp = false;
+    }
+
+    public bool CanInteract
+    {
+        get
+        {
+            if (isFixed)
+                return true;
+
+            return damages.Any(d => d.CanGetRepaired);
+        }
     }
 }

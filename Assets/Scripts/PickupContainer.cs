@@ -3,7 +3,6 @@
 public class PickupContainer : MonoBehaviour
 {
     public Pickup pickup;
-    private SpriteRenderer sr;
 
     void Start()
     {
@@ -14,8 +13,8 @@ public class PickupContainer : MonoBehaviour
     {
         if (pickup != null)
         {
-            sr = GetComponent<SpriteRenderer>();
-            sr.sprite = pickup.sprite;
+            GetComponent<SpriteRenderer>().sprite = pickup.sprite;
+            GetComponentInChildren<SpriteMask>().sprite = pickup.sprite;
         }
     }
 }

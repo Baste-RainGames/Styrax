@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
@@ -21,6 +22,8 @@ public class EnemyController : MonoBehaviour
     [Range(0f, 1f)]
     private float startOffset = .5f;
 
+    [NonSerialized] public bool stopMoving;
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -31,6 +34,9 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
+        if (stopMoving)
+            return;
+
         if (increasing)
         {
             movement_t += Time.deltaTime * enemyMovementSpeed;

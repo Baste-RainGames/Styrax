@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 public class UBoatDamage : MonoBehaviour
@@ -23,9 +24,8 @@ public class UBoatDamage : MonoBehaviour
         if (Fixed)
             return false;
 
-        foreach (var pickup in requiredToFix)
-            if (!Inventory.Has(pickup))
-                return false;
+        if (!CanGetRepaired)
+            return false;
 
         foreach (var pickup in requiredToFix)
             Inventory.Remove(pickup);
@@ -40,4 +40,6 @@ public class UBoatDamage : MonoBehaviour
     }
 
     public bool Fixed { get; private set; }
+
+    public bool CanGetRepaired => requiredToFix.All(Inventory.Has);
 }
