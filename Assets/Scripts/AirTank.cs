@@ -145,4 +145,10 @@ public class AirTank : MonoBehaviour
         Holes++;
         AudioManager.Play("Lose Air");
     }
+
+    public void HitUBoat()
+    {
+        Holes = 0;
+        Air = Mathf.Max(Settings.StartingAirTankFill);
+    }
 }

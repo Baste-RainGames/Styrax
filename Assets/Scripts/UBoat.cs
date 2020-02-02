@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using UnityEngine;
 
 public class UBoat : MonoBehaviour, IInteractable
@@ -60,6 +61,15 @@ public class UBoat : MonoBehaviour, IInteractable
                 return true;
 
             return damages.Any(d => d.CanGetRepaired);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log(other);
+        if (other.gameObject.TryGetComponent<AirTank>(out var airTank))
+        {
+            airTank.HitUBoat();
         }
     }
 }

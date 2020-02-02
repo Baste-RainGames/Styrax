@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2251,7 +2251,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -3015,7 +3015,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -4514,7 +4514,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -9933,7 +9933,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -16405,7 +16405,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -21446,7 +21446,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -22412,7 +22412,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
