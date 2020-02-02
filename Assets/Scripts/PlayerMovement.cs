@@ -24,13 +24,14 @@ public class PlayerMovement : MonoBehaviour
         airTank = GetComponent<AirTank>();
         anim = GetComponent<PlayerAnimation>();
 
-        InGameUI.EnsureUI();
-
         SetXInput(0);
     }
 
     public void ReadMovementInput(InputAction.CallbackContext ctx)
     {
+        if (InGameUI.isPaused || InGameUI.gameOver)
+            return;
+
         if (ctx.performed)
         {
             var x = ctx.ReadValue<Vector2>().x;
@@ -44,6 +45,9 @@ public class PlayerMovement : MonoBehaviour
 
     public void ReadJumpInput(InputAction.CallbackContext ctx)
     {
+        if (InGameUI.isPaused || InGameUI.gameOver)
+            return;
+
         if (ctx.performed && canJump)
         {
             AudioManager.Play("Bubble");

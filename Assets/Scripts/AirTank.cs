@@ -56,6 +56,9 @@ public class AirTank : MonoBehaviour
 
     public void Vent(InputAction.CallbackContext ctx)
     {
+        if (InGameUI.isPaused || InGameUI.gameOver)
+            return;
+
         if (ctx.performed)
         {
             venting = true;

@@ -20,7 +20,7 @@ public class UBoat : MonoBehaviour, IInteractable
     {
         if (isFixed)
         {
-            InGameUI.ShowGameOverScreen();
+            InGameUI.ShowWinScreen();
             usedUp = false;
             return;
         }

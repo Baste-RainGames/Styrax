@@ -4,6 +4,7 @@ public class MainMenuButtons : MonoBehaviour
 {
     public GameObject buttons;
     public GameObject credits;
+    public GameObject howToPlay;
 
     void Start()
     {
@@ -20,12 +21,14 @@ public class MainMenuButtons : MonoBehaviour
     {
         buttons.SetActive(false);
         credits.SetActive(true);
+        howToPlay.SetActive(false);
     }
 
     public void ReturnButton()
     {
         buttons.SetActive(true);
         credits.SetActive(false);
+        howToPlay.SetActive(true);
     }
 
 

@@ -1930,7 +1930,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menu: {fileID: 8115949171121762404}
   header: {fileID: 7103278572053454756}
-  resume: {fileID: 0}
+  resume: {fileID: 6359957482481905941}
   pauseSprite: {fileID: 21300000, guid: 0186e606576349440abd2d9f1a12dfd8, type: 3}
   gameOverSprite: {fileID: 21300000, guid: 13bb908f715f1704c9db0ede922c7c34, type: 3}
 --- !u!1 &7019709430468210276
@@ -2868,6 +2868,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6743794025812380672}
     m_Modifications:
+    - target: {fileID: 3332688376033438265, guid: 2caeafd72d62cbf4d890717c5c4fd1d9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -191
+      objectReference: {fileID: 0}
+    - target: {fileID: 3332688376033438265, guid: 2caeafd72d62cbf4d890717c5c4fd1d9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -464
+      objectReference: {fileID: 0}
     - target: {fileID: 4332712259834126638, guid: 2caeafd72d62cbf4d890717c5c4fd1d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2977,6 +2987,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: How To Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 6077878496173743054, guid: 2caeafd72d62cbf4d890717c5c4fd1d9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 445
+      objectReference: {fileID: 0}
+    - target: {fileID: 6077878496173743054, guid: 2caeafd72d62cbf4d890717c5c4fd1d9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -159
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2caeafd72d62cbf4d890717c5c4fd1d9, type: 3}

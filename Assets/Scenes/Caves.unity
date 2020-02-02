@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -379,7 +379,7 @@ GameObject:
   - component: {fileID: 24565868}
   m_Layer: 0
   m_Name: Cave
-  m_TagString: Untagged
+  m_TagString: Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -602,8 +602,8 @@ SpriteShapeRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -626,7 +626,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -841,7 +841,7 @@ GameObject:
   - component: {fileID: 27380332}
   m_Layer: 0
   m_Name: Cave (17)
-  m_TagString: Untagged
+  m_TagString: Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1637,8 +1637,8 @@ SpriteShapeRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1661,7 +1661,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -1934,7 +1934,7 @@ GameObject:
   - component: {fileID: 59937093}
   m_Layer: 0
   m_Name: Cave (9)
-  m_TagString: Untagged
+  m_TagString: Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2277,8 +2277,8 @@ SpriteShapeRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2301,7 +2301,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -4489,12 +4489,12 @@ PrefabInstance:
     - target: {fileID: 1522614051299943562, guid: 055156c52afebc847963b722fa1e6994,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -93.96639
+      value: -93.903
       objectReference: {fileID: 0}
     - target: {fileID: 1522614051299943562, guid: 055156c52afebc847963b722fa1e6994,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 29.591936
+      value: 29.605
       objectReference: {fileID: 0}
     - target: {fileID: 1522614051299943562, guid: 055156c52afebc847963b722fa1e6994,
         type: 3}
@@ -10768,6 +10768,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8910199400083568287, guid: 3ff033443e2fc4a4c981a59941a25f36,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910199400083568287, guid: 3ff033443e2fc4a4c981a59941a25f36,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ff033443e2fc4a4c981a59941a25f36, type: 3}
 --- !u!4 &872990898 stripped
@@ -11107,7 +11117,7 @@ GameObject:
   - component: {fileID: 901214076}
   m_Layer: 0
   m_Name: Cave (14)
-  m_TagString: Untagged
+  m_TagString: Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11399,8 +11409,8 @@ SpriteShapeRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11423,7 +11433,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -12565,8 +12575,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1004973849
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 262597a72602f3045b63995a24453581, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -14047,7 +14057,7 @@ GameObject:
   - component: {fileID: 1171637683}
   m_Layer: 0
   m_Name: Cave (16)
-  m_TagString: Untagged
+  m_TagString: Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14694,8 +14704,8 @@ SpriteShapeRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14718,7 +14728,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -15796,7 +15806,7 @@ GameObject:
   - component: {fileID: 1258277751}
   m_Layer: 0
   m_Name: Cave
-  m_TagString: Untagged
+  m_TagString: Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16046,8 +16056,8 @@ SpriteShapeRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16070,7 +16080,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -17266,7 +17276,7 @@ GameObject:
   - component: {fileID: 1362329704}
   m_Layer: 0
   m_Name: Cave (12)
-  m_TagString: Untagged
+  m_TagString: Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17619,8 +17629,8 @@ SpriteShapeRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17643,7 +17653,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -18649,7 +18659,7 @@ GameObject:
   - component: {fileID: 1467061611}
   m_Layer: 0
   m_Name: Cave (13)
-  m_TagString: Untagged
+  m_TagString: Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18869,8 +18879,8 @@ SpriteShapeRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18893,7 +18903,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -19259,7 +19269,7 @@ GameObject:
   - component: {fileID: 1519152134}
   m_Layer: 0
   m_Name: Cave (21)
-  m_TagString: Untagged
+  m_TagString: Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19597,8 +19607,8 @@ SpriteShapeRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19621,7 +19631,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -20462,7 +20472,7 @@ GameObject:
   - component: {fileID: 1575109708}
   m_Layer: 0
   m_Name: Cave (10)
-  m_TagString: Untagged
+  m_TagString: Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20678,8 +20688,8 @@ SpriteShapeRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20702,7 +20712,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -20992,7 +21002,7 @@ GameObject:
   - component: {fileID: 1608904861}
   m_Layer: 0
   m_Name: Cave (18)
-  m_TagString: Untagged
+  m_TagString: Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21375,8 +21385,8 @@ SpriteShapeRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21399,7 +21409,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -21473,8 +21483,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1004973849
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a520e8a77c5ccf44489166d569980a32, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -22303,8 +22313,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1004973849
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 262597a72602f3045b63995a24453581, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -24084,6 +24094,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8910199400083568287, guid: 3ff033443e2fc4a4c981a59941a25f36,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910199400083568287, guid: 3ff033443e2fc4a4c981a59941a25f36,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ff033443e2fc4a4c981a59941a25f36, type: 3}
 --- !u!1 &1806965030
@@ -25827,8 +25847,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1004973849
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9fff500f3bafa69439da5226f99d184d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -26498,7 +26518,7 @@ GameObject:
   - component: {fileID: 1994672218}
   m_Layer: 0
   m_Name: Cave (15)
-  m_TagString: Untagged
+  m_TagString: Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26750,8 +26770,8 @@ SpriteShapeRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -26774,7 +26794,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -27375,7 +27395,7 @@ GameObject:
   - component: {fileID: 2072862076}
   m_Layer: 0
   m_Name: Cave (8)
-  m_TagString: Untagged
+  m_TagString: Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27735,8 +27755,8 @@ SpriteShapeRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -27759,7 +27779,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}
@@ -27865,6 +27885,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910199400083568287, guid: 3ff033443e2fc4a4c981a59941a25f36,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910199400083568287, guid: 3ff033443e2fc4a4c981a59941a25f36,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ff033443e2fc4a4c981a59941a25f36, type: 3}
@@ -28239,7 +28269,7 @@ GameObject:
   - component: {fileID: 2120790242}
   m_Layer: 0
   m_Name: Cave (11)
-  m_TagString: Untagged
+  m_TagString: Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28532,8 +28562,8 @@ SpriteShapeRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a3bc26642144a1845b51d342e1e20a8c, type: 2}
-  - {fileID: 2100000, guid: a3bc26642144a1845b51d342e1e20a8c, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -28556,7 +28586,7 @@ SpriteShapeRenderer:
   m_SortingOrder: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
-  m_ShapeTexture: {fileID: 2800000, guid: b1851c1d2554953409b3af8eb0d66a88, type: 3}
+  m_ShapeTexture: {fileID: 2800000, guid: 1886ed87e11f040439eac4c67295c8dd, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 74b5e485d62f8db49b07651399d99db0, type: 3}
   - {fileID: 21300000, guid: 4d081d59ddb83434c8bb77fb1273ac2e, type: 3}

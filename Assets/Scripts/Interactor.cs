@@ -10,6 +10,9 @@ public class Interactor : MonoBehaviour
 
     private void Update()
     {
+        if (InGameUI.isPaused || InGameUI.gameOver)
+            return;
+
         if (interactables.Count > 0 && interactables.Any(i => i.CanInteract))
             PressEPrompt.Show();
         else
@@ -18,6 +21,9 @@ public class Interactor : MonoBehaviour
 
     public void InteractPressed(InputAction.CallbackContext ctx)
     {
+        if (InGameUI.isPaused || InGameUI.gameOver)
+            return;
+
         if (!ctx.performed)
             return;
 

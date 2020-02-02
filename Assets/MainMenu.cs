@@ -37,5 +37,6 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync("OleCaves", LoadSceneMode.Additive);
 
         player.SetActive(true);
+        InGameUI.EnsureUI();
     }
 }
