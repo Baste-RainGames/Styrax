@@ -1,0 +1,30 @@
++ Cooldown for player jump input
+
++ Play sound when player does jump input
+
++ Puffer fish:
+  + swims around I guess?
+    + flip x-axis when swimming left
+
+  + becomes bigger when player in range
+    + step 2: becomes bigger only when player in front
+
+- Submarine:
+  - Pickups; you swim over them and add them to inventory	
+  - When you have a pickup and swim by the submarine, you drop the pickup
+  - Keep count of number of pickups?
+
+  (Probably three scripts, some might just be tags idk; PlayerInventory, Pickup, Submarine)
+  (Probably solve this with OnTriggerEnter2D, colliders)
+
+Menu Level!
+  + Play game button goes to main scene
+  - Add textures
+
+In-game menu:
+  + Open (SetActive?) when you press escape (or something)
+  + Has button to quit (goes to menu level)
+
+Bugs
+	- Reset button not working
+	- All key pickups occupy the same inventory slot

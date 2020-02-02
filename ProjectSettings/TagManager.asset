@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Right
+  - Left
+  - Bottom
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 647795545
+    locked: 0
+  - name: Geometry
+    uniqueID: 94654585
+    locked: 0
+  - name: Prop
+    uniqueID: 3391833513
+    locked: 0
+  - name: Interactable
+    uniqueID: 3543523863
+    locked: 0
+  - name: Uboat
+    uniqueID: 3871113561
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1371202935
+    locked: 0
+  - name: Hiding Prop
+    uniqueID: 3289993447
+    locked: 0

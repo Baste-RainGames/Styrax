@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 4b2be138569962e47b44f600eebd9616
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: ae0427285f72543409def975d674664e
+  - enabled: 0
+    path: Assets/Scenes/BastesTestScene.unity
+    guid: 90e416767aab9504fa63fd5d7ffe4a2f
+  - enabled: 0
+    path: Assets/Scenes/OlaTestScene.unity
+    guid: 1d5e529e27c82ff4fbbf7f1492ebeb25
+  - enabled: 1
+    path: Assets/Scenes/Caves.unity
+    guid: 58b00962f85c2664f8c3e898715c3a26
+  - enabled: 1
+    path: Assets/Scenes/OlaCaves.unity
+    guid: f3dcc74bd4fc5084fba6205d65849f0b
+  - enabled: 1
+    path: Assets/Scenes/OleCaves.unity
+    guid: 2d9d5165ff535eb4a9b5c8182f72e469
+  m_configObjects: {}
